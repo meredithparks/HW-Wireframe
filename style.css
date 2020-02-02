@@ -1,76 +1,85 @@
-body {
-    font-size: 18px;
-    color: #777;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #777;
-    width: 960px;
-  }
-  
-  #header {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 10px;
-    color: #333;
-    background:#ebebeb;
-  }
-  
-  #nav {
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 10px;
-    color: #333;
-    background: #ebebeb;
-  }
-  
-  #section {
-    float:left;
-    display:inline-block;
-    width: 459px;
-    margin-top: 10px;
-    padding: 100px;
-    color: #333;
-    background: #ebebeb;
-  }
+body{
+  background-color: #777;
+  width: 960px;
 
-  #article{
-    background: #777;
-    color: #ebebeb;
-    width: 95%;
-    padding: 50px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  #h1 {
-    padding: 20px;
-    margin-top: 20px;
-    color: #777;
-    background: #ebebeb;
-  }
 
-  #p {
-    padding: 20px;
-    margin-top: 10px;
-    color: #777;
-    background: #ebebeb;
-  }
+}
+#header{
+  display: block;
+  padding: 20px;
+  color: #777;
+  background-color: #ebebeb;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+#nav{
+  display: block;
+  padding: 20px;
+  color: #777;
+  background-color: #ebebeb;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+#aside{
+float:right;
+padding: 100px;
+width: 200px;
+color: #777;
+background: #ebebeb;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-size: 18px;
+margin-top: 10px;
+}
+#section{
+  display: inline-block;
+  float: left;
+  width: 300px;
+  margin-top: 10px;
+  padding: 80px;
+  color: #777;
+  background: #ebebeb;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
 
-  aside {
-    float: left;
-    display:inline-block;
-    width:45%;
-    margin-top: 10px;
-    padding: 100px;
-    color: #333;
-    background: #ebebeb;
-  }
-  
-  footer {
-    width: 100%;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #333;
-    background: #ebebeb
-  }
+#article{
+  background: #777;
+  color: #ebebeb;
+  width: 72.5%;
+  padding: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+#h1 {
+  padding: 20px;
+  margin-top: 20px;
+  color: #777;
+  background: #ebebeb;
+  font-size: 18px;
+}
+
+#p {
+  padding: 20px;
+  margin-top: 10px;
+  color: #777;
+  background: #ebebeb;
+  font-size: 18px;
+}
+
+#footer {
+  display: block;
+  padding: 20px;
+  color: #777;
+  background-color: #ebebeb;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 18px;
